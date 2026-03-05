@@ -1,8 +1,8 @@
 {
-  "name": "CHAMA-MD",
-  "description": "Javascript WhatsApp bot made by  chamindu ",
+  "name": "Queen_Ahinsa-MD",
+  "description": "Javascript WhatsApp bot Coaded By Dileesha ",
   "logo": "https://i.ibb.co/5XNzHkVp/3908.jpg",
-  "keywords": ["CHAMA-MD"],
+  "keywords": ["Queen_Ahinsa-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "CHAMA-MD"
+      "value": "Queen_Ahinsa-MD"
     }, 
       
     "PREFIX": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY KHAN-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY AHINSA 🟢*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Chamindu"
+      "value": "Dileesha"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "92310344XXXX"
+      "value": "947XXXXXXX"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "CHAMA-MD"
+      "value": "Queen_Ahinsa-MD"
 
       }, 
 
@@ -119,7 +119,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Chamindu  *"
+      "value": "*© 𝙿𝙾𝚆𝙴𝚁𝙳 𝙱𝚈 𝙺𝙸𝙽𝙶 𝙳𝙸𝙻𝙴𝙴𝚂𝙷𝙰*"
     },
 
       "DELETE_LINKS": {
