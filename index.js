@@ -43,7 +43,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94774575878']
+  const ownerNumber = ['94705325882']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -67,7 +67,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("CHAMA-MD=", '');
+const sessdata = config.SESSION_ID.replace("AHINSA-UID&", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -82,7 +82,7 @@ const port = process.env.PORT || 9090;
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
+  console.log("🎛️ 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙽𝙶 𝙵𝙾𝚁 𝙵𝙰𝚂𝚃 𝙱𝙾𝚃𝚉...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -102,17 +102,29 @@ const port = process.env.PORT || 9090;
   connectToWA()
   }
   } else if (connection === 'open') {
-  console.log('🧬 Installing Plugins')
+  console.log('📥 𝙸𝙽𝚂𝚃𝙰𝙻𝙻𝙸𝙽𝙶 𝚀𝚄𝙴𝙴𝙽 𝙰𝙷𝙸𝙽𝚂𝙰...')
   const path = require('path');
   fs.readdirSync("./plugins/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
   require("./plugins/" + plugin);
   }
   });
-  console.log('Plugins installed successful ✅')
-  console.log('Bot connected to whatsapp ✅')
+  console.log('𝙰𝙷𝙸𝙽𝚂𝙰 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝙵𝙰𝙸𝙻𝙴𝙳 ❌')
+  console.log('𝙰𝙷𝙸𝙽𝚂𝙰 𝙻𝙾𝙶𝙾𝚄𝚃 𝚁𝙴𝚃𝚁𝚈 🔴')
   
-  let up = `*Hello there CHAMA-MD User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet CHAMA-MD WhatsApp Bot.\n\n *Thanks for using CHAMA-MD \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com\n\n> © Powered BY CHAMINDU \ud83d\udda4`;
+  let up = `      🟢 𝐐𝐮𝐞𝐞𝐧_𝐀𝐡𝐢𝐧𝐬𝐚-𝐌𝐃 🔴
+
+*◾ 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝚂𝚄𝙲𝙲𝙴𝚂𝚂 𝚃𝙾 𝚈𝙾𝚄𝚁 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 ✅*
+
+ *◾ 𝚁𝙴𝚂𝙿𝙴𝙲𝚃 𝚃𝙾 𝙰𝙻𝙻𝚆𝙰𝚈𝚂 𝙳𝙸𝙻𝙴𝙴𝚂𝙷𝙰 𝙶𝙸𝙼𝚂𝙷𝙰𝙽 🔴*
+ *◾ 𝚃𝚈𝙿𝙴 𝚃𝙾 𝙼𝙴𝙽𝚄 𝙰𝚃 𝚄𝚂𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙻𝙸𝚂𝚃 🎛️*
+ *◾ 𝙾𝙿𝚃𝙸𝙼𝙸𝚉𝙴 𝙰𝙽𝙳 𝙲𝙷𝙰𝙽𝙶𝙴 𝚈𝙾𝚄𝚁  𝙵𝙾𝙾𝚃𝙴𝚁 𝙽𝙾𝚆 ☢️*
+ *◾ 𝙳𝙾𝙽'𝚃 𝚂𝙴𝙻𝙻 𝙰𝙽𝙳 𝙰𝙻𝚆𝙰𝚈𝚂 𝙵𝚁𝙴𝙴 𝙰𝙻𝙻 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 🗞️*
+ *◾ 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙵𝙾𝚁 𝙰𝙻𝙻 𝙸𝚂𝚂𝚄𝙴 𝙾𝚆𝙽𝙴𝚁 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 🌐*
+
+ > ✦•┈๑▶︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:10 ๑┈•✦
+ > ⫘⫘⫘⫘⫘⫘ 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃
+  `;
     conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/5XNzHkVp/3908.jpg` }, caption: up })
   }
   })
