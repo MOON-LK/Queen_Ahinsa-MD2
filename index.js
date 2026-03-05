@@ -125,7 +125,7 @@ const port = process.env.PORT || 9090;
  > ✦•┈๑▶︎ •၊၊||၊|။||||။‌‌‌‌‌၊|• 0:10 ๑┈•✦
  > ⫘⫘⫘⫘⫘⫘ 𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃
   `;
-    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/5XNzHkVp/3908.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/xnl46e.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -174,7 +174,7 @@ const port = process.env.PORT || 9090;
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
+  await conn.sendMessage(user, { text: text, react: { text: '🔴', key: mek.key } }, { quoted: mek })
             }
             await Promise.all([
               saveMessage(mek),
@@ -210,7 +210,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('94783314361', '923243548051', '94774575878');
+    const jawad = ('94705325882');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -257,9 +257,9 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-  if(senderNumber.includes("94774575878")){
+  if(senderNumber.includes("94705325882")){
   if(isReact) return
-  m.react("💖")
+  m.react("◾")
    }
   //==========public react============//
   // Auto React 
@@ -780,7 +780,7 @@ if (!isReact && senderNumber === botNumber) {
   }
   
   app.get("/", (req, res) => {
-  res.send("CHAMA MD STARTED ✅");
+  res.send("𝙰𝙷𝙸𝙽𝚂𝙰 𝙳𝙾𝙽𝚃 𝙲𝙾𝙽𝙽𝙴𝙲𝚃 𝚁𝙴𝚃𝚁𝚈 𝙿𝙻𝙴𝙰𝚂𝙴 🔄");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
