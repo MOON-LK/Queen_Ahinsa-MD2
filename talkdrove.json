@@ -1,11 +1,11 @@
 
 {
-    "bot-name": "CHAMA-MD",
-    "description": "Whiskey Sockets Baileys Whatsapp bot By ali",
-    "logo": "https://i.ibb.co/5XNzHkVp/3908.jpg",
+    "bot-name": "Queen_Ahinsa-MD",
+    "description": "Whiskey Sockets Baileys Whatsapp bot Coading By Dileesha",
+    "logo": "https://files.catbox.moe/xnl46e.jpg",
     "keywords": ["bot"],
-    "documentation-link": "https://chama-md2.onrender.com/",
-    "owner-verification": "ar6167423@gmail.com",
+    "documentation-link": "https://speedileesha.railway.app/",
+    "owner-verification": "loadilisha@gmail.com",
   
     "env": {
    "SESSION_ID": {
@@ -17,7 +17,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "CHAMA-MD"
+      "value": "Queen_Ahinsa-MD"
     }, 
       
     "PREFIX": {
@@ -80,21 +80,21 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS JUST NOW CHAMA-MD 🍒*"
+      "value": "*SEEN YOUR STATUS JUST NOW Queen_Ahinsa-MD 🔴*"
    
      }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "CHAMA-MD"
+      "value": "Queen_Ahinsa-MD"
 
       }, 
     
     "ALIVE_IMG": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://i.ibb.co/5XNzHkVp/3908.jpg" 
+      "value": "https://files.catbox.moe/xnl46e.jpg" 
       },
 
     "DELETE_LINK": {
